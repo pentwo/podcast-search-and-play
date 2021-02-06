@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/poadcast-search-and-play/static/css/main.2774fc0f.chunk.css",
+    "main.js": "/poadcast-search-and-play/static/js/main.56f4ca84.chunk.js",
+    "main.js.map": "/poadcast-search-and-play/static/js/main.56f4ca84.chunk.js.map",
+    "runtime-main.js": "/poadcast-search-and-play/static/js/runtime-main.f0ae2885.js",
+    "runtime-main.js.map": "/poadcast-search-and-play/static/js/runtime-main.f0ae2885.js.map",
+    "static/css/2.764ccc25.chunk.css": "/poadcast-search-and-play/static/css/2.764ccc25.chunk.css",
+    "static/js/2.bd16200f.chunk.js": "/poadcast-search-and-play/static/js/2.bd16200f.chunk.js",
+    "static/js/2.bd16200f.chunk.js.map": "/poadcast-search-and-play/static/js/2.bd16200f.chunk.js.map",
+    "index.html": "/poadcast-search-and-play/index.html",
+    "precache-manifest.735d7f71bcc46203a6c28c8ddb9cba76.js": "/poadcast-search-and-play/precache-manifest.735d7f71bcc46203a6c28c8ddb9cba76.js",
+    "service-worker.js": "/poadcast-search-and-play/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/poadcast-search-and-play/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.2774fc0f.chunk.css.map": "/poadcast-search-and-play/static/css/main.2774fc0f.chunk.css.map",
+    "static/js/2.bd16200f.chunk.js.LICENSE.txt": "/poadcast-search-and-play/static/js/2.bd16200f.chunk.js.LICENSE.txt",
+    "static/media/dual-ring-1s-200px.svg": "/poadcast-search-and-play/static/media/dual-ring-1s-200px.798481ce.svg",
+    "static/media/ic-delete-48px.svg": "/poadcast-search-and-play/static/media/ic-delete-48px.8294751b.svg",
+    "static/media/ic-forward-30-48px.svg": "/poadcast-search-and-play/static/media/ic-forward-30-48px.618f02f0.svg",
+    "static/media/ic-pause-48px.svg": "/poadcast-search-and-play/static/media/ic-pause-48px.43974475.svg",
+    "static/media/ic-play-arrow-48px.svg": "/poadcast-search-and-play/static/media/ic-play-arrow-48px.0d38baf7.svg",
+    "static/media/ic-playlist-add-48px.svg": "/poadcast-search-and-play/static/media/ic-playlist-add-48px.a542b1eb.svg",
+    "static/media/ic-replay-30-48px.svg": "/poadcast-search-and-play/static/media/ic-replay-30-48px.d922df04.svg",
+    "static/media/ic-skip-next-48px.svg": "/poadcast-search-and-play/static/media/ic-skip-next-48px.673d4233.svg",
+    "static/media/sound-nobg.gif": "/poadcast-search-and-play/static/media/sound-nobg.33ac0488.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0ae2885.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.bd16200f.chunk.js",
+    "static/css/main.2774fc0f.chunk.css",
+    "static/js/main.56f4ca84.chunk.js"
+  ]
+}
