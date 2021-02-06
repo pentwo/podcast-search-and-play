@@ -1,0 +1,31 @@
+/* .side-bar {
+  height: 100% !important;
+  display: flex;
+  position: absolute;
+  top: 0;
+  flex-direction: column;
+
+  border-right: 2px solid;
+  border-radius: 0;
+  border-color: var(--dark);
+  background-color: rgb(255, 255, 255);
+  transition: 0.4s ease;
+
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+} */
+.toggle-menu {
+  height: 50px;
+  width: 50px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  position: absolute;
+  outline: none;
+  z-index: 999;
+  background-color: var(--primary);
+  border-color: var(--dark);
+  border-left: 0;
+}
+
+.player-icon {
+  width: 30px;
+}

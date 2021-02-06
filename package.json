@@ -1,0 +1,35 @@
+{
+  "name": "podcast-searcher",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "0.21.1",
+    "clsx": "1.1.1",
+    "dayjs": "1.10.3",
+    "normalize.css": "8.0.1",
+    "podcast-feed-parser": "1.0.2",
+    "react": "17.0.0",
+    "react-content-loader": "6.0.1",
+    "react-dom": "17.0.0",
+    "react-player": "2.8.2",
+    "react-scripts": "3.4.3",
+    "styled-components": "5.2.1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
