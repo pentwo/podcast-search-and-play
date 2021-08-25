@@ -4,7 +4,7 @@ Simple podcast search and play app.
 
 ## App
 
-[https://pentwo.github.io/poadcast-search-and-play/](https://pentwo.github.io/poadcast-search-and-play/)
+[https://pentwo.github.io/podcast-search-and-play/](https://pentwo.github.io/podcast-search-and-play/)
 
 ## Technologies
 
