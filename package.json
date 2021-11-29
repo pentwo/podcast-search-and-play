@@ -1,6 +1,6 @@
 {
   "name": "podcast-searcher",
-  "homepage": "https://pentwo.github.io/poadcast-search-and-play/",
+  "homepage": "https://pentwo.github.io/podcast-search-and-play/",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -20,12 +20,12 @@
     "styled-components": "5.2.1"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.3",
     "typescript": "3.8.3"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
