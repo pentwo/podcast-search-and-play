@@ -1,6 +1,9 @@
 {
   "name": "Podcast-search-and-play",
   "homepage": "https://pentwo.github.io/podcast-search-and-play/",
+  "repository": {
+    "url": "git+https://github.com/pentwo/podcast-search-and-play.git"
+  },
   "version": "1.0.0",
   "description": "My webpack project",
   "keywords": [],
@@ -40,6 +43,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "cleangh": "gh-pages-clean",
     "start": "react-scripts start",
     "build": "webpack --mode=production --node-env=production",
     "test": "react-scripts test --env=jsdom",
