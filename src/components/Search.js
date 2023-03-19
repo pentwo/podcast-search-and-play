@@ -20,7 +20,7 @@ const Wrapper = styled.form`
   .clear-icon {
     position: absolute;
     top: 12px;
-    right: 12px;
+    right: 140px;
     width: 15px;
     cursor: pointer;
   }
@@ -34,12 +34,25 @@ const Wrapper = styled.form`
     padding: 2px 23px 2px 45px;
     outline: 0;
     background-color: var(--white);
+    
 
     :hover,
     :focus {
       border: 1.5px solid var(--primary);
       background-color: white;
     }
+  }
+  .search-button {
+    
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    outline: 0;
+    background-color: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+
   }
 `;
 
@@ -67,7 +80,8 @@ const Search = ({
     setSearched(true);
     setResult([]);
     setLoading(true);
-    const str = e.target.elements[0].value;
+
+    const str = inputValue;
 
     const result = await fetchItunes(str);
 
@@ -92,9 +106,7 @@ const Search = ({
           value={inputValue}
           onChange={handleChange}
         />
-        {inputValue === '' ? (
-          ''
-        ) : (
+        {inputValue !== '' && (
           <img
             className="clear-icon"
             alt="clear-icon"
@@ -102,6 +114,9 @@ const Search = ({
             onClick={handleClear}
           />
         )}
+      <button className="search-button" type="button" onClick={handleSubmit}>
+        Search
+      </button>
       </Wrapper>
     </div>
   );

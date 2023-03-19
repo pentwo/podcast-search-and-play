@@ -60,34 +60,16 @@ export default function App() {
           setSearched={setSearched}
           setFilter={setFilter}
         />
-
+        {!isLoading && inputValue && (
+            <h3>Search Result for "{inputValue}"</h3>
+        )}
         <Genres result={result} filter={filter} setFilter={setFilter} />
         <Podcasts result={result} handleClick={handleClick} filter={filter} />
         {isSearched && Object.keys(result).length < 1 && !isLoading
           ? 'No Search Result'
           : ''}
         {isLoading ? <img src={Loading} alt="loading" /> : ''}
-        {/* {isLoading ? (
-          <ContentLoader
-            speed={3}
-            width={'auto'}
-            height={128}
-            viewBox="0 0 640 128"
-            backgroundColor="var(--white)"
-            foregroundColor="var(--lightgray)"
-          >
-            <rect x="0" y="0" rx="8" ry="8" width="80" height="30" />
-            <rect x="120" y="0" rx="8" ry="8" width="80" height="30" />
-            <rect x="240" y="0" rx="8" ry="8" width="80" height="30" />
-            <rect x="360" y="0" rx="8" ry="8" width="80" height="30" />
-            <rect x="75" y="67" rx="4" ry="4" width="80" height="10" />
-            <rect x="0" y="60" rx="12" ry="12" width="64" height="64" />
-            <rect x="576" y="60" rx="12" ry="12" width="64" height="64" />
-            <rect x="75" y="96" rx="4" ry="4" width="240" height="20" />
-          </ContentLoader>
-        ) : (
-          ''
-        )} */}
+
 
         <Overlay
           isVisible={isVisible}

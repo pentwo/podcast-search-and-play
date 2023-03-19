@@ -1,12 +1,13 @@
 {
-  "name": "podcast-searcher",
+  "name": "my-webpack-project",
   "homepage": "https://pentwo.github.io/podcast-search-and-play/",
   "version": "1.0.0",
-  "description": "",
+  "description": "My webpack project",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "axios": "0.21.1",
+    "axios": "^0.21.4",
+    "buffer": "^6.0.3",
     "clsx": "1.1.1",
     "dayjs": "1.10.3",
     "git": "^0.1.5",
@@ -16,20 +17,37 @@
     "react-content-loader": "6.0.1",
     "react-dom": "17.0.0",
     "react-player": "2.8.2",
-    "react-scripts": "3.4.3",
-    "styled-components": "5.2.1"
+    "react-scripts": "^5.0.1",
+    "source-map-loader": "^4.0.1",
+    "stream": "^0.0.2",
+    "styled-components": "5.2.1",
+    "timers": "^0.1.1",
+    "timers-browserify": "^2.0.12"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@webpack-cli/generators": "^3.0.1",
+    "babel-loader": "^9.1.2",
     "gh-pages": "^3.2.3",
-    "typescript": "3.8.3"
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.8.4",
+    "typescript": "3.8.3",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "webpack --mode=production --node-env=production",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "browserslist": [
     ">0.2%",
