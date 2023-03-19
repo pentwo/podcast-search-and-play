@@ -76,10 +76,12 @@ const Search = ({
   };
 
   const handleSubmit = async (e) => {
+    if(!inputValue) return;
     e.preventDefault();
     setSearched(true);
     setResult([]);
     setLoading(true);
+
 
     const str = inputValue;
 
@@ -114,7 +116,9 @@ const Search = ({
             onClick={handleClear}
           />
         )}
-      <button className="search-button" type="button" onClick={handleSubmit}>
+      <button 
+        disabled={inputValue === ''}
+        className="search-button" type="button" onClick={handleSubmit}>
         Search
       </button>
       </Wrapper>

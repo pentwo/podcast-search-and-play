@@ -60,8 +60,8 @@ export default function App() {
           setSearched={setSearched}
           setFilter={setFilter}
         />
-        {!isLoading && inputValue && (
-            <h3>Search Result for "{inputValue}"</h3>
+        {(!isLoading && inputValue) && !result.length > 0 && (
+            <h3>Search for "{inputValue}"</h3>
         )}
         <Genres result={result} filter={filter} setFilter={setFilter} />
         <Podcasts result={result} handleClick={handleClick} filter={filter} />
