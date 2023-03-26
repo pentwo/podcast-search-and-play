@@ -3,7 +3,7 @@ import podcastFeedParser from 'podcast-feed-parser';
 
 import { genresData, placeholderGenre } from './genres';
 
-const corsURL = 'https://pentwo-cors-anywhere.herokuapp.com/';
+const corsURL = 'https://cors-anywhere-4bjy.onrender.com/';
 
 export const SEARCH_LIMIT = 50;
 
