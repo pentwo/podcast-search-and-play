@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/podcast-search-and-play/static/css/main.00931f9c.css",
-    "main.js": "/podcast-search-and-play/static/js/main.a61082a4.js",
+    "main.js": "/podcast-search-and-play/static/js/main.a5aa38f5.js",
     "static/media/sound-nobg.gif": "/podcast-search-and-play/static/media/sound-nobg.ee9bbcbe2ed75a0d8b9e.gif",
     "static/media/ic-forward-30-48px.svg": "/podcast-search-and-play/static/media/ic-forward-30-48px.e50b429b1a4e3478a280950b5eee60d4.svg",
     "static/media/ic-replay-30-48px.svg": "/podcast-search-and-play/static/media/ic-replay-30-48px.ad43641f7179801256a4a1046d09203e.svg",
@@ -13,10 +13,10 @@
     "static/media/ic-skip-next-48px.svg": "/podcast-search-and-play/static/media/ic-skip-next-48px.f222de86afb780ea182074078370b90f.svg",
     "static/media/ic-pause-48px.svg": "/podcast-search-and-play/static/media/ic-pause-48px.0efab838746f376001a8c17d7ed499ce.svg",
     "main.00931f9c.css.map": "/podcast-search-and-play/static/css/main.00931f9c.css.map",
-    "main.a61082a4.js.map": "/podcast-search-and-play/static/js/main.a61082a4.js.map"
+    "main.a5aa38f5.js.map": "/podcast-search-and-play/static/js/main.a5aa38f5.js.map"
   },
   "entrypoints": [
     "static/css/main.00931f9c.css",
-    "static/js/main.a61082a4.js"
+    "static/js/main.a5aa38f5.js"
   ]
 }
